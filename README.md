@@ -4,6 +4,8 @@ Mods for [Claude Code](https://claude.com/claude-code): plugins of function hook
 
 ## usage-bars
 
+![usage-bars: context, 5h and 7d bars, then folder, model, effort and thinking](docs/usage-bars.png)
+
 Two rows above the prompt:
 
 - **Row 1:** bars for the context window, the 5-hour limit and the 7-day limit, with the reset times. Each bar is colored by fill: blue when it is unused, green below 50%, yellow below 80%, red from 80% up.
@@ -14,6 +16,8 @@ The limits are read every 2 minutes, and after each turn, from the account's usa
 The layout follows the terminal's width. On a wide window the bars are 20 cells, with reset times and token count. Narrower, the bars shrink and the extras go. On a very narrow one only the percentages are left.
 
 ## copy-markdown
+
+![copy-markdown: the md button on a reply and the toast after a copy](docs/copy-markdown.png)
 
 A small `⧉ md` button on each reply copies the **whole reply as its original markdown** to the clipboard: tables, code blocks, diffs and mermaid come through intact. It works on replies split by tool calls too. `/copy-md [n]` copies the n-th last reply from the keyboard.
 
