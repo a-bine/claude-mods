@@ -1,0 +1,4 @@
+# Laid by the engine on every load
+.claude-plugin/types/
+*/.claude-plugin/types/
+node_modules/

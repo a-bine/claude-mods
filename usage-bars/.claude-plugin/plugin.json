@@ -1,0 +1,7 @@
+{
+  "name": "usage-bars",
+  "version": "0.1.0",
+  "description": "Context, 5h and 7d usage bars above the prompt, colored by fill and refreshed from the account's live usage, plus folder, model, effort and thinking",
+  "author": { "name": "a-bine" },
+  "types": "./types/index.d.ts"
+}

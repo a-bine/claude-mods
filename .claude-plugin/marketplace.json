@@ -1,0 +1,17 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "a-bine" },
+  "description": "Claude Code mods: live usage bars and copy-as-markdown",
+  "plugins": [
+    {
+      "name": "usage-bars",
+      "source": "./usage-bars",
+      "description": "Context, 5h and 7d usage bars above the prompt, colored by fill and refreshed from the account's live usage"
+    },
+    {
+      "name": "copy-markdown",
+      "source": "./copy-markdown",
+      "description": "Copy any reply as its original markdown (tables, code, mermaid intact)"
+    }
+  ]
+}
